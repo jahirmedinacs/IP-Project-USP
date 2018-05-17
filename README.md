@@ -36,11 +36,18 @@ Like it is looks, the image resulting of a complete day of frequencies registeri
   * The Feature Extraction process it gona be performed in a more detailed image (1 min images), and usit as a correctness proof.
 
 ## Possible Solutions Steps:
-  * Retrive all the possible "General Data" (400 ~ 500 samples)
+  * Retrive all the possible "General Data" [Picture Above] (400 ~ 500 samples)
   
   ![]( ./md-media/samples-url.png "Sample Urls")
 
   ![]( ./md-media/retrive-samples-script.png "Script for Sample Retrive")
+
+<audio controls="controls">
+  <source type="audio/mp3" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
+  <source type="audio/ogg" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
+  <source type="audio/wav" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.wav"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>  
 
   * Split the data in "Detailed Data" Sizes
   * Find Match between all of them (same pattern) an proceed to increase de resolution
