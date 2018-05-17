@@ -15,19 +15,33 @@
 ## Project Context:
 
 The University of Twente posses a short-wave receiver located at the amateur radio club ETGD, and it is public access.
+
+![]( ./md-media/site-capture.png "Site Capture")
+
 They allow the possibility of multiple tune-it radio frequency, generating a wide spectrum of available frequencies [0 Mhz - ~30 Mhz]
 
-Like it is looks, the image resulting of a complete day of frequencies registering posses a relative "pattern" behavior, despite it contents a lot of voice signals.
+![]( ./md-media/general-data.png "24 Hours Frequencies Register")
+
+Like it is looks, the image resulting of a complete day of frequencies registering posses a relative "pattern" behavior, despite it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
 ## Project Objective(s):
   * Find a correlation between "General Data" ( 24h Images), "Detailed Data" (1min Images) and "Specific Data" (Sound) in the process of pattern recognicion.
-  
+
+  ![]( ./md-media/detailed-data.png "Detailed Data 1")
+
+  ![]( ./md-media/sound-plt.png "Detailed Data 2")
+
   * Improve the image quality (register along 1 day) , focusing in the "pattern behaviored" areas (for example at the 27550 MHz Frequency), making more easy the feature extraction process.
 
   * The Feature Extraction process it gona be performed in a more detailed image (1 min images), and usit as a correctness proof.
 
 ## Possible Solutions Steps:
   * Retrive all the possible "General Data" (400 ~ 500 samples)
+  
+  ![]( ./md-media/samples-url.png "Sample Urls")
+
+  ![]( ./md-media/retrive-samples-script.png "Script for Sample Retrive")
+
   * Split the data in "Detailed Data" Sizes
   * Find Match between all of them (same pattern) an proceed to increase de resolution
   * Re-Generates a "General Data" image.
