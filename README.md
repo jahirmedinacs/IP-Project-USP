@@ -33,6 +33,12 @@ Like it is looks, the image resulting of a complete day of frequencies registeri
 
   [Specific Data (Sound File Sample)](./md-media/audio_player.html)
 
+<audio controls="controls">
+  <source type="audio/mp3" src="./websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
+  <source type="audio/ogg" src="./websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
   * Improve the image quality (register along 1 day) , focusing in the "pattern behaviored" areas (for example at the 27550 MHz Frequency), making more easy the feature extraction process.
 
   * The Feature Extraction process it gona be performed in a more detailed image (1 min images), and usit as a correctness proof.
