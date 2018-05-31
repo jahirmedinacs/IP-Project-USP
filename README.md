@@ -39,7 +39,7 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 #### Project Idea and Data Sources
 
-* <span style="font-size:smaller; font-weight:bold">
+<span style="font-size:large; font-weight:bold">
   University of Twente
 </span>
 
@@ -56,7 +56,7 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
-* <span style="font-size:smaller; font-weight:bold">
+<span style="font-size:large; font-weight:bold">
   The ARSS Project
 </span>
 
