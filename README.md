@@ -1,6 +1,6 @@
 # Image Processing Project
 
-Brief Description:
+Full Title:
 
 <center>
 <span style="font-size:large; font-weight:bold">
@@ -8,29 +8,34 @@ Brief Description:
 </span>
 </center>
 
-Summary:
+Brief Description:
 
 When a wave-type signal is capture , it in his raw state, can be representated in multiple ways, but , if it is a sound, despite the fact it just electrical field pertubations, can be also representated as an image; an image who contain the same informatino as the sound but in other domains. (could have less informatio tho)
 
-# Student Information
+* * *
+
+# Project Information
+
+## Student Data
 
 * **Name**: Jahir Gilberth Medina Lopez
 * **USP Number**: 1659682
 
-# Description and Plan Structure
+## Description and Project Structure
 
-## Project Area(s) : 
+### Project Area(s) : 
 
-### Main Area
+#### Main Area
   * Super-Resolution
-### Secondariy Area(S)
+
+#### Secondariy Area(S)
   * Feature Extraction
   * In-painting
-  * Noise Reduction [*]
+  * Noise Reduction [\*]
 
-[*] As an auxiliary topic.
+[\*] As an auxiliary topic.
 
-## Project Context:
+### Project Context:
 
 The University of Twente posses a short-wave receiver located at the amateur radio club ETGD, and it is public access.
 
@@ -42,7 +47,7 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of frequencies registering posses a relative "pattern" behavior, despite it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
-## Project Objective(s):
+### Project Objective(s):
   * Find a correlation between "General Data" ( 24h Images), "Detailed Data" (1min Images) and "Specific Data" (Sound) in the process of pattern recognicion.
 
   ![]( ./md-media/detailed-data.png "Detailed Data 1")
@@ -61,7 +66,7 @@ Like it is looks, the image resulting of a complete day of frequencies registeri
 
   * The Feature Extraction process it gona be performed in a more detailed image (1 min images), and usit as a correctness proof.
 
-## Possible Solutions Steps:
+### Possible Solutions Steps:
   * Retrive all the possible "General Data" [Picture Above] (400 ~ 500 samples)
   
   ![]( ./md-media/samples-url.png "Sample Urls")
