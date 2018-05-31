@@ -6,9 +6,9 @@ Brief Description:
 <span style="font-size:large; font-weight:bold">
   Comparison of Image Enhancement Techniques applied to Sound Data Retrive ( from Images )
 </span>
+<span></br></span>
 </center>
 
-<br></br>
 
 When a wave-type signal is capture , it in his raw state, can be representated in multiple ways, but , if it is a sound, despite the fact it just electrical field pertubations, can be also representated as an image; an image who contain the same informatino as the sound but in other domains. (could have less informatio tho)
 
