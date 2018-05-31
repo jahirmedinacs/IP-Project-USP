@@ -23,7 +23,7 @@ When a wave-type signal is capture , it in his raw state, can be representated i
 
 ## Description and Project Structure
 
-### Project Area(s) : 
+### Project Area(s)
 
 #### Main Area
   * Super-Resolution
@@ -35,7 +35,7 @@ When a wave-type signal is capture , it in his raw state, can be representated i
 
 [\*] As an auxiliary topic.
 
-### Project Context:
+### Project Context
 
 The University of Twente posses a short-wave receiver located at the amateur radio club ETGD, and it is public access.
 
@@ -47,7 +47,7 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of frequencies registering posses a relative "pattern" behavior, despite it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
-### Project Objective(s):
+### Project Objective(s)
   * Find a correlation between "General Data" ( 24h Images), "Detailed Data" (1min Images) and "Specific Data" (Sound) in the process of pattern recognicion.
 
   ![]( ./md-media/detailed-data.png "Detailed Data 1")
@@ -66,7 +66,7 @@ Like it is looks, the image resulting of a complete day of frequencies registeri
 
   * The Feature Extraction process it gona be performed in a more detailed image (1 min images), and usit as a correctness proof.
 
-### Possible Solutions Steps:
+### Possible Solutions Steps
   * Retrive all the possible "General Data" [Picture Above] (400 ~ 500 samples)
   
   ![]( ./md-media/samples-url.png "Sample Urls")
@@ -85,3 +85,7 @@ Like it is looks, the image resulting of a complete day of frequencies registeri
   > Fix Steps
   
   * Compare the behavior of the same data at diferent levels (General, Detailed, Specific) and contrast his Features or the information available in every one of them.
+
+# Project Development
+
+# Project Results
