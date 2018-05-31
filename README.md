@@ -69,11 +69,11 @@ The way it is works is converting images as if it were a frecuency domain data, 
 [The ARSS Project - Examples](http://arss.sourceforge.net/examples.shtml)
 
 <center>
-  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" alt="Lena" border="0" style="width:250px;height:250px;">
-  <img src="./md-media/bidirectional.png"border="0" style="width:120px;height:120px;">
+  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" alt="Lena" border="0" style="width:250px;height:250px;"></img>
+  <img src="./md-media/bidirectional.png"border="0" style="width:120px;height:120px;"></img>
   <audio controls="controls">
     <source type="audio/mp3" src="http://arss.sourceforge.net/examples/lena/lena.mp3"></source>
-  <p>Your browser does not support this audio format (MP3).</p>
+    <p>Your browser does not support this audio format (MP3).</p>
   </audio>
 </center>
 
