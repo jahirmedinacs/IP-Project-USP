@@ -10,7 +10,7 @@ Full Title:
 
 Brief Description:
 
-When a wave-type signal is capture , it in his raw state, can be representated in multiple ways, but , if it is a sound, despite the fact it just electrical field pertubations, can be also representated as an image; an image who contain the same informatino as the sound but in other domains. (could have less informatio tho)
+When an electromagnetic wave-type signal is capture or register, in his raw state, can be representated in multiple ways; but in the case it is a sound, despite the fact is a merly electrical field pertubation, can be also representated as an image; an image who contain the same informatin as the sound but in other information domains. (could have less informatio tho)
 
 * * *
 
@@ -39,9 +39,11 @@ When a wave-type signal is capture , it in his raw state, can be representated i
 
 #### Project Idea and Data Sources
 
-##### University of Twente
+* <span style="font-size:smaller; font-weight:bold">
+  University of Twente
+</span>
 
-![Wide-band WebSDR - Web Page](http://websdr.ewi.utwente.nl:8901)
+[Wide-band WebSDR - Web Page](http://websdr.ewi.utwente.nl:8901)
 
 The University of Twente posses a short-wave receiver located at the amateur radio club ETGD offices, who is offered free as an online radio.
 
@@ -54,9 +56,44 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
-##### The ARSS Project
+* <span style="font-size:smaller; font-weight:bold">
+  The ARSS Project
+</span>
 
-![The ARSS Project - Web Page](http://arss.sourceforge.net)
+[The ARSS Project - Web Page](http://arss.sourceforge.net)
+
+The ARSS Project could be considerer as the main inspiration for this project, it works the idea of sound reconstruccion from images, however, the project was first develop for Sound-to-Image conversion.
+
+The way it is works is converting images as if it were a frecuency domain data, this method of Sound-from-Image Data Retrive method is generic enough to convert any image to sound, being usefull in this project.
+
+[The ARSS Project - Examples](http://arss.sourceforge.net/examples.shtml)
+
+<tr>
+  <td>
+    <center>
+      <a href="http://arss.sourceforge.net/examples/lena/lena.png" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/examples/lena/lena.png');"><img src="http://arss.sourceforge.net/examples/lena/lena_small.png" border="0">
+      </a>
+    </center>
+    </td>
+  <td>
+    <center>
+      <img src="arrow.png" border="0"></center>
+    </td>
+  <td>
+    <center>
+      <a href="http://arss.sourceforge.net/examples/lena/lena.mp3" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/examples/lena/lena.mp3');">
+      </a>
+    </center>
+  </td>
+  <td>
+    <center>
+      <a href="http://arss.sourceforge.net/examples/lena/lena_transmission_result.png" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/examples/lena/lena_transmission_result.png');">
+        <img src="http://arss.sourceforge.net/examples/lena/lena_result_small.png" border="0">
+      </a>
+    </center>
+  </td>
+</tr>
+
 
 ### Project Objective(s)
   * Find a correlation between "General Data" ( 24h Images), "Detailed Data" (1min Images) and "Specific Data" (Sound) in the process of pattern recognicion.
