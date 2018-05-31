@@ -16,7 +16,7 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 # Project Information
 
-## Student Data
+## Student Information
 
 * **Name**: Jahir Gilberth Medina Lopez
 * **USP Number**: 1659682
@@ -39,9 +39,7 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 #### Project Idea and Data Sources
 
-<span style="font-size:small; font-weight:bold;">
-  University of Twente
-</span>
+* <span style="font-size:small; font-weight:bold;">University of Twente</span>
 
 [Wide-band WebSDR - Web Page](http://websdr.ewi.utwente.nl:8901)
 
@@ -56,9 +54,7 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
-<span style="font-size:small; font-weight:bold;">
-  The ARSS Project
-</span>
+* <span style="font-size:small; font-weight:bold;">The ARSS Project</span>
 
 [The ARSS Project - Web Page](http://arss.sourceforge.net)
 
