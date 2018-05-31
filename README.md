@@ -72,7 +72,7 @@ The way it is works is converting images as if it were a frecuency domain data, 
   <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" border="0">
   <audio controls="controls">
     <source type="audio/mp3" src="http://arss.sourceforge.net/examples/lena/lena.mp3"></source>
-  <p>Your browser does not support this audio format.</p>
+  <p>Your browser does not support this audio format (MP3).</p>
   </audio>
   <img src="http://arss.sourceforge.net/examples/lena/lena_result_small.png" border="0">
 </center>
@@ -90,7 +90,7 @@ The way it is works is converting images as if it were a frecuency domain data, 
 <audio controls="controls">
   <source type="audio/mp3" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
   <source type="audio/ogg" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
-  <p>Your browser does not support this audio format.</p>
+  <p>Your browser does not support this audio format (MP3 / OGG).</p>
 </audio>
 
   * Improve the image quality (register along 1 day) , focusing in the "pattern behaviored" areas (for example at the 27550 MHz Frequency), making more easy the feature extraction process.
