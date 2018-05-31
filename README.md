@@ -39,7 +39,7 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 #### Project Idea and Data Sources
 
-<span style="font-size:large; font-weight:bold">
+<span style="font-size:small; font-weight:bold;">
   University of Twente
 </span>
 
@@ -56,7 +56,7 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
-<span style="font-size:large; font-weight:bold">
+<span style="font-size:small; font-weight:bold;">
   The ARSS Project
 </span>
 
@@ -69,12 +69,12 @@ The way it is works is converting images as if it were a frecuency domain data, 
 [The ARSS Project - Examples](http://arss.sourceforge.net/examples.shtml)
 
 <center>
-  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" border="0">
+  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" alt="Lena" border="0" style="width:250px;height:250px;">
+  <img src="./md-media/bidirectional.png"border="0" style="width:120px;height:120px;">
   <audio controls="controls">
     <source type="audio/mp3" src="http://arss.sourceforge.net/examples/lena/lena.mp3"></source>
   <p>Your browser does not support this audio format (MP3).</p>
   </audio>
-  <img src="http://arss.sourceforge.net/examples/lena/lena_result_small.png" border="0">
 </center>
 
 
