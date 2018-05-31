@@ -68,31 +68,14 @@ The way it is works is converting images as if it were a frecuency domain data, 
 
 [The ARSS Project - Examples](http://arss.sourceforge.net/examples.shtml)
 
-<tr>
-  <td>
-    <center>
-      <a href="http://arss.sourceforge.net/examples/lena/lena.png" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/examples/lena/lena.png');"><img src="http://arss.sourceforge.net/examples/lena/lena_small.png" border="0">
-      </a>
-    </center>
-    </td>
-  <td>
-    <center>
-      <img src="arrow.png" border="0"></center>
-    </td>
-  <td>
-    <center>
-      <a href="http://arss.sourceforge.net/examples/lena/lena.mp3" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/examples/lena/lena.mp3');">
-      </a>
-    </center>
-  </td>
-  <td>
-    <center>
-      <a href="http://arss.sourceforge.net/examples/lena/lena_transmission_result.png" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/examples/lena/lena_transmission_result.png');">
-        <img src="http://arss.sourceforge.net/examples/lena/lena_result_small.png" border="0">
-      </a>
-    </center>
-  </td>
-</tr>
+<center>
+  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" border="0">
+  <audio controls="controls">
+    <source type="audio/mp3" src="http://arss.sourceforge.net/examples/lena/lena.mp3"></source>
+  <p>Your browser does not support this audio format.</p>
+  </audio>
+  <img src="http://arss.sourceforge.net/examples/lena/lena_result_small.png" border="0">
+</center>
 
 
 ### Project Objective(s)
