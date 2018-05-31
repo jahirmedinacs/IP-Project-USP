@@ -54,11 +54,11 @@ Like it is looks, the image resulting of a complete day of frequencies registeri
 
   ![]( ./md-media/sound-plt.png "Detailed Data 2")
 
-  [Specific Data (Sound File Sample)](./md-media/audio_player.html)
+[Specific Data (Sound File Sample)](./md-media/audio_player.html)
 
 <audio controls="controls">
-  <source type="audio/mp3" src="/md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
-  <source type="audio/ogg" src="/md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
+  <source type="audio/mp3" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
+  <source type="audio/ogg" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
   <p>Your browser does not support this audio format.</p>
 </audio>
 
