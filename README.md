@@ -4,9 +4,9 @@ Brief Description:
 
 <center>
 <span style="font-size:large; font-weight:bold">
-  Comparison of Image Enhancement Techniques applied to Sound Data Retrive ( from Images )
+  Comparison of Image Enhancement Techniques applied to Sound Data Retrive( from Images )
+
 </span>
-<span></br></span>
 </center>
 
 
