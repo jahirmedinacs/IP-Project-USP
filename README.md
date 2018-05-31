@@ -37,15 +37,26 @@ When a wave-type signal is capture , it in his raw state, can be representated i
 
 ### Project Context
 
-The University of Twente posses a short-wave receiver located at the amateur radio club ETGD, and it is public access.
+#### Project Idea and Data Sources
+
+##### University of Twente
+
+![Wide-band WebSDR - Web Page](http://websdr.ewi.utwente.nl:8901)
+
+The University of Twente posses a short-wave receiver located at the amateur radio club ETGD offices, who is offered free as an online radio.
 
 ![]( ./md-media/site-capture.png "Site Capture")
 
 They allow the possibility of multiple tune-it radio frequency, generating a wide spectrum of available frequencies [0 Mhz - ~30 Mhz]
 
+
 ![]( ./md-media/general-data.png "24 Hours Frequencies Register")
 
-Like it is looks, the image resulting of a complete day of frequencies registering posses a relative "pattern" behavior, despite it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
+Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
+
+##### The ARSS Project
+
+![The ARSS Project - Web Page](http://arss.sourceforge.net)
 
 ### Project Objective(s)
   * Find a correlation between "General Data" ( 24h Images), "Detailed Data" (1min Images) and "Specific Data" (Sound) in the process of pattern recognicion.
