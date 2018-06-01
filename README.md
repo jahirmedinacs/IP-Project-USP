@@ -4,13 +4,13 @@ Full Title:
 
 <center>
 <span style="font-size:large; font-weight:bold">
-  Comparison of Image Enhancement Techniques applied to Sound Data Retrive( from Images )
+  Comparison of Image Enhancement Techniques applied to Sound Data Retrieve( from Images )
 </span>
 </center>
 
 Brief Description:
 
-When an electromagnetic wave-type signal is capture or register, in his raw state, can be representated in multiple ways; but in the case it is a sound, despite the fact is a merly electrical field pertubation, can be also representated as an image; an image who contain the same informatin as the sound but in other information domains. (could have less informatio tho)
+When an electromagnetic wave-type signal is capture or register, in his raw state, can be represented in multiple ways; but in the case it is a sound, despite the fact is a merely electrical field perturbation, can be also represented as an image; an image who contain the same information as the sound but in other information domains. (could have less information too)
 
 * * *
 
@@ -26,11 +26,11 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 ### Main Area
   * Super-Resolution
 
-### Secondariy Area(S)
+### Secondary Area(S)
   * Feature Extraction
   * In-painting
   * Noise Reduction [\*]
-  * Image Restauration
+  * Image Restoration
   * Sound Processing [\*]
 
 [\*] As an auxiliary topic.
@@ -39,8 +39,8 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 ### Project Idea
 
-The main idea of the project is retrive damage images of sound data and return enchance sound data, the images are generated from sound signals.
-The sound signals it self can be converted to images, but, during the sound data reception its possible to get analog images (as frecuency "pictures" of sound, like an analog tv). This redundant data could help in the enhacement sound procces, not only improving the sound qualty filtering the sound data, also filtering the image data asociated to the soud 
+The main idea of the project is retrieve damage images of sound data and return enhance sound data, the images are generated from sound signals.
+The sound signals it self can be converted to images, but, during the sound data reception its possible to get analog images (as frequency "pictures" of sound, like an analog TV). This redundant data could help in the enhancement sound process, not only improving the sound quality filtering the sound data, also filtering the image data associated to the sound 
 
 ### Data Sources
 
@@ -48,7 +48,7 @@ The sound signals it self can be converted to images, but, during the sound data
 
 [Wide-band WebSDR - Web Page](http://websdr.ewi.utwente.nl:8901)
 
-The University of Twente posses a short-wave receiver located at the amateur radio club ETGD offices, who is offered free as an online radio.
+The University of Twente posses a short-wave receiver located at the amateur radio club ETGD offices, who is offered free as an on-line radio.
 
 ![]( ./md-media/site-capture.png "Site Capture")
 
@@ -63,9 +63,9 @@ Like it is looks, the image resulting of a complete day of registering frequenci
 
 [The ARSS Project - Web Page](http://arss.sourceforge.net)
 
-The ARSS Project could be considerer as the main inspiration for this project, it works the idea of sound reconstruccion from images, however, the project was first develop for Sound-to-Image conversion.
+The ARSS Project could be considerer as the main inspiration for this project, it works the idea of sound reconstruction from images, however, the project was first develop for Sound-to-Image conversion.
 
-The way it is works is converting images as if it were a frecuency domain data, this method of Sound-from-Image Data Retrive method is generic enough to convert any image to sound, being usefull in this project.
+The way it is works is converting images as if it were a frequency domain data, this method of Sound-from-Image Data Retrieve method is generic enough to convert any image to sound, being useful in this project.
 
 [The ARSS Project - Examples](http://arss.sourceforge.net/examples.shtml)
 
@@ -81,19 +81,19 @@ The way it is works is converting images as if it were a frecuency domain data, 
 
 ## Project Objective(s)
 
-### Pricipal Objective
+### Principal Objective
 
 <center>
 <span style="font-size:large; font-weight:bold">
-  Find what method statisticalid perfom better in the process of image enhance.
+  Find what method statistically perform better in the process of image enhance.
 </span>
 </center>
   
 
-**The Project perfoms 3 diferent test :**
+**The Project performs 3 different test :**
 
-1. Using data to test every method chosed , getting the best and the worst methods (quality of results)
-2. Using the methods obtained, aplying the same methods and comparing the accuracy of the "quality prediction"
+1. Using data to test every chosen method  , getting the best and the worst methods (quality of results)
+2. Using the methods obtained, applying the same methods and comparing the accuracy of the "quality prediction"
 3. Testing the methods in data who were not used in any of the steps before
 
 **Types of Data**
@@ -106,7 +106,7 @@ The way it is works is converting images as if it were a frecuency domain data, 
     ![]( ./md-media/detailed-data.png "Detailed Data 1 - Same bitrate")
     ![]( ./md-media/sound-plt.png "Detailed Data 2 - Same bitrate")
   3. Specific Data:
-    Is just the sound data, it is considered as an original becaus his purpose is being the quality references in any of the tests.
+    Is just the sound data, it is considered as an original because his purpose is being the quality references in any of the tests.
 
 [Specific Data (Sound File Sample)](./md-media/audio_player.html)
 <center>
@@ -118,22 +118,22 @@ The way it is works is converting images as if it were a frecuency domain data, 
 </center>
 
 ### Secondary Objectives
-  * Also test the effiency in developing time and excution time
+  * Test the efficiency in developing time and execution time
 
-  * Compare the "human percibed" quality, because , having an 99% of accuracy not always mean have a nice sound
+  * Compare the "human perceived" quality, because , having an 99% of accuracy not always mean have a nice sound
 
 ## Solution Steps
   * Get all the possible "General Data" that it gonna be use [Picture Above] ( 50~100 samples)
     * [2016-02-01 Full Day Image](http://websdr.ewi.utwente.nl:8901/fullday/day16832.png)
-    * It also gona be used some *music samples for the "human" quality test*
+    * It also gonna be used some *music samples for the "human" quality test*
 
-  * Get the sub samples relatives to the indefied patterns in the general data
-  * Find Match between all of them (same pattern) an proceed to increase de number of samples
+  * Get the sub samples relatives to the identified patterns in the general data
+  * Find Match between all of them (same pattern) an proceed to increase the number of samples
   * Start the tests
   * Compare
   * Get Results
 
-The especific methods that are gonna be used , for now , are just tentative, for avoid innecesary changes in this section. they are just gona be adding when they are developed (all of them with his respective background)
+The specific methods that are gonna be used , for now , are just tentative, for avoid unnecessary changes in this section. they are just gonna be adding when they are developed (all of them with his respective background)
 
 # Project Development
 
