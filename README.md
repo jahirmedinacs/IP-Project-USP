@@ -59,6 +59,8 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 
 Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of it contents a lot of voice signals [ 0Mhz - 15 Mhz ].
 
+### Inspirations
+
 #### The ARSS Project
 
 [The ARSS Project - Web Page](http://arss.sourceforge.net)
@@ -85,11 +87,28 @@ The way it is works is converting images as if it were a frequency domain data, 
 
 <center>
 <span style="font-size:large; font-weight:bold">
-  Find what method statistically perform better in the process of image enhance.
+  Find what method performs statistically better in the process of image enhance.
 </span>
 </center>
-  
 
+### Secondary Objectives
+  * Test the efficiency in developing time and execution time
+
+  * Compare the "human perceived" quality, having an 99% of accuracy not always mean have a nice sound
+
+## Solution Steps
+  * Get all the possible "General Data" that it gonna be use [Picture Above] ( 50~100 samples)
+    * [2016-02-01 Full Day Image](http://websdr.ewi.utwente.nl:8901/fullday/day16832.png)
+    * It also gonna be used some *music samples for the "human" quality test*
+
+  * Get the sub samples relatives to the identified patterns in the general data
+  * Find Match between all of them (same pattern) an proceed to increase the number of samples
+  * Start the tests
+  * Compare
+  * Get Results
+
+### Test Types
+  
 **The Project performs 3 different test :**
 
 1. Using data to test every chosen method  , getting the best and the worst methods (quality of results)
@@ -116,22 +135,6 @@ The way it is works is converting images as if it were a frequency domain data, 
     <p>Your browser does not support this audio format (MP3 / OGG).</p>
   </audio>
 </center>
-
-### Secondary Objectives
-  * Test the efficiency in developing time and execution time
-
-  * Compare the "human perceived" quality, because , having an 99% of accuracy not always mean have a nice sound
-
-## Solution Steps
-  * Get all the possible "General Data" that it gonna be use [Picture Above] ( 50~100 samples)
-    * [2016-02-01 Full Day Image](http://websdr.ewi.utwente.nl:8901/fullday/day16832.png)
-    * It also gonna be used some *music samples for the "human" quality test*
-
-  * Get the sub samples relatives to the identified patterns in the general data
-  * Find Match between all of them (same pattern) an proceed to increase the number of samples
-  * Start the tests
-  * Compare
-  * Get Results
 
 The specific methods that are gonna be used , for now , are just tentative, for avoid unnecessary changes in this section. they are just gonna be adding when they are developed (all of them with his respective background)
 
