@@ -70,8 +70,8 @@ The way it is works is converting images as if it were a frecuency domain data, 
 [The ARSS Project - Examples](http://arss.sourceforge.net/examples.shtml)
 
 <center>
-  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" alt="Lena" style="width:120px;height:120px;"></img>
-  <img src="./md-media/bidirectional.png" style="width:40px;height:40px;"></img>
+  <img src="http://arss.sourceforge.net/examples/lena/lena_small.png" alt="Lena" style="width:120px;height:120px;">
+  <img src="./md-media/bidirectional.png" style="width:40px;height:40px;">
   <audio controls="controls">
     <source type="audio/mp3" src="http://arss.sourceforge.net/examples/lena/lena.mp3"></source>
     <p>Your browser does not support this audio format (MP3).</p>
@@ -108,13 +108,14 @@ The way it is works is converting images as if it were a frecuency domain data, 
   3. Specific Data:
     Is just the sound data, it is considered as an original becaus his purpose is being the quality references in any of the tests.
 
-[Specific Data (Sound File Sample)](./md-media/audio_player.html)
-
-<audio controls="controls">
-  <source type="audio/mp3" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
-  <source type="audio/ogg" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
-  <p>Your browser does not support this audio format (MP3 / OGG).</p>
-</audio>
+<center>
+  [Specific Data (Sound File Sample)](./md-media/audio_player.html)
+  <audio controls="controls">
+    <source type="audio/mp3" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
+    <source type="audio/ogg" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
+    <p>Your browser does not support this audio format (MP3 / OGG).</p>
+  </audio>
+</center>
 
 ### Secondary Objectives
   * Also test the effiency in developing time and excution time
@@ -125,6 +126,7 @@ The way it is works is converting images as if it were a frecuency domain data, 
   * Get all the possible "General Data" that it gonna be use [Picture Above] ( 50~100 samples)
 
     2016-02-01  : http://websdr.ewi.utwente.nl:8901/fullday/day16832.png
+
     *Using some music samples for the "human" quality test*
 
   * Get the sub samples relatives to the indefied patterns in the general data
