@@ -108,8 +108,8 @@ The way it is works is converting images as if it were a frecuency domain data, 
   3. Specific Data:
     Is just the sound data, it is considered as an original becaus his purpose is being the quality references in any of the tests.
 
+[Specific Data (Sound File Sample)](./md-media/audio_player.html)
 <center>
-  [Specific Data (Sound File Sample)](./md-media/audio_player.html)
   <audio controls="controls">
     <source type="audio/mp3" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.mp3"></source>
     <source type="audio/ogg" src="./md-media/websdr_recording_start_2018-05-17T00_10_41Z_7076.8kHz.ogg"></source>
@@ -124,10 +124,8 @@ The way it is works is converting images as if it were a frecuency domain data, 
 
 ## Solution Steps
   * Get all the possible "General Data" that it gonna be use [Picture Above] ( 50~100 samples)
-
-    2016-02-01  : http://websdr.ewi.utwente.nl:8901/fullday/day16832.png
-
-    *Using some music samples for the "human" quality test*
+    * [2016-02-01 Full Day Image](http://websdr.ewi.utwente.nl:8901/fullday/day16832.png)
+    * It also gona be used some *music samples for the "human" quality test*
 
   * Get the sub samples relatives to the indefied patterns in the general data
   * Find Match between all of them (same pattern) an proceed to increase de number of samples
