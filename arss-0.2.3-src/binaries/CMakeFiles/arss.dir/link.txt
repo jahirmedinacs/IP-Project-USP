@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/arss.dir/arss.o CMakeFiles/arss.dir/dsp.o CMakeFiles/arss.dir/util.o CMakeFiles/arss.dir/image_io.o CMakeFiles/arss.dir/sound_io.o  -o arss -lfftw3 -lm 

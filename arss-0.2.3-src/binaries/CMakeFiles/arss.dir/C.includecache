@@ -1,0 +1,112 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/arss.c
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+math.h
+-
+fftw3.h
+-
+float.h
+-
+time.h
+-
+string.h
+-
+util.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.h
+image_io.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/image_io.h
+sound_io.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/sound_io.h
+dsp.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/dsp.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/dsp.c
+dsp.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/dsp.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/dsp.h
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+math.h
+-
+fftw3.h
+-
+float.h
+-
+time.h
+-
+string.h
+-
+util.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/image_io.c
+image_io.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/image_io.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/image_io.h
+stdlib.h
+-
+stdio.h
+-
+stdint.h
+-
+util.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/sound_io.c
+sound_io.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/sound_io.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/sound_io.h
+stdlib.h
+-
+stdio.h
+-
+stdint.h
+-
+util.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.h
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.c
+util.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.h
+Windows.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/Windows.h
+sys/time.h
+-
+
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/util.h
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+math.h
+-
+float.h
+-
+time.h
+-
+string.h
+-
+dsp.h
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/src/dsp.h
+

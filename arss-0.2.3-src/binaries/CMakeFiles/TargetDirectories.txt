@@ -1,0 +1,7 @@
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/install/strip.dir
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/edit_cache.dir
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/arss.dir
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/install.dir
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/rebuild_cache.dir
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/list_install_components.dir
+/media/jahirmedinacs/SDMASTER/meta-files/img procs/projecto/arss-0.2.3-src/binaries/CMakeFiles/install/local.dir
