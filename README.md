@@ -16,11 +16,14 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 # Project Information
 
-## [Final Proposition] ("./FINAL_PROPOST.MD")
+## Final Proposition 
+[link]("./FINAL_PROPOST.MD")
 
-## [Parcial Advance] ("./PARCIAL.MD")
+## Parcial Advance
+[link]("./PARCIAL.MD")
 
-## [Final]("./FINAL.MD")
+## Final
+[link]("./FINAL.MD")
 
 # Project Development
 
