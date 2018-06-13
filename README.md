@@ -16,8 +16,8 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 # Project Information
 
-## Final Proposition 
-[link](./FINAL_PROPOST.MD)
+## Final Proposal
+[link](./FINAL_PROPOS.MD)
 
 ## Parcial Advance
 [link](./PARCIAL.MD)
