@@ -1,10 +1,10 @@
 # Software for  Sound-to-Image/Image-to-Sound convertion:
 
-[ARSS](./arss-0.2.3-src/)
+[ARSS](https://github.com/jahirmedinacs/IP-sound_retrive_usp/tree/master/arss-0.2.3-src)
 
 # Script for batch convertion:
 
-[Script in Bash](./datalib/wav_image.sh)
+[Script in Bash](https://github.com/jahirmedinacs/IP-sound_retrive_usp/blob/master/datalib/wav_image.sh)
 
 # Notebook ( Python 3)
 
@@ -16,4 +16,4 @@
 
 Generate from "Tank - The Best (From Cowboy Bebop)" Album
 
-[Data Directory](./project_data)
+[Data Directory](https://github.com/jahirmedinacs/IP-sound_retrive_usp/tree/master/project_data)
