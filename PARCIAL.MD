@@ -135,7 +135,9 @@ They allow the possibility of multiple tune-it radio frequency, generating a wid
 ![]( ./md-media/general-data.png "24 Hours Frequencies Register")
 
 Like it is looks, the image resulting of a complete day of registering frequencies posses a relative "pattern" behavior, in spite of its contents a lot of voice signals [ 0Mhz - 15 Mhz ].
-#### Musical Discs ***"downloads.Khinsider"***
+
+#### Music Albums/Songs
+
 For the part where the need is to perform a sound quality test by humans, was necessary have sound data in excellent quality.
 The website Downloads. Khinsider provides some animes/video games soundtracks albums, for this project was used the album [** Tank, The Best**](https://downloads.khinsider.com/game-soundtracks/album/cowboy-bebop-tank-the-best) from the anime Cowboy Bebop (besides the copyright issues this could be considered a "fair use").
 
