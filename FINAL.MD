@@ -109,7 +109,7 @@ Ambas ideas combinadas con la idea de curva de Hilberth fractal ( automatizado m
   </audio>
 </center>
 
-## Scripts , Codigo y Resultados
+## Scripts y Codigo
 
 > Dado la resolucion de las imagenes (4096 * 4096) solo se adjuta los resultados ya calculados.
 
@@ -117,4 +117,27 @@ En este experimento se uso el disco musical [Cowboy Bebop Tank! THE! BEST!](http
 
 ### Pasos Usados
 
-###
+### Generador de Patrones para las Curvas de Hilbert
+
+[Notebook](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/hilberth-curve/Hilberth%20Coordinates%20Calculator.ipynb) ; en este paso se uso el codigo generador de coordenadas para una matriz que consigue vincularla con valores unicos en una recta. Dado que este proceso , incluso habiendo sido paralelizado resulta pesado , se pre-calculo los patrones para las iteraciones entre 8 y 12 , es decir para matrices entre 256 x 256 y 4096 x 4096.
+
+### Convirtiendo Sonido calidad de Estudio en datos RAW
+
+La primera parte consiste en convertir los archivos en formato mp3 usando un [script]("../datalib/mp3_2_wav.sh") en bash que usa [ffmpeg4 encode](https://www.ffmpeg.org) para dicha conversion.
+
+Subsecuentemente dividiendo el archivo wav en sus canales (Left and Rigth) para entregar datos de tipo entero (arreglos)
+
+[Leyendo los archivos Wav](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/part%201.ipynb)
+
+[Dividiendo los canales y generando datos RAW](
+
+### Testeando el Proceso de Generacion de imagenes
+
+[Notebook](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/Part%203.ipynb)
+
+### Generando Imagenes (Puras y con Ruido)
+
+[Notebook](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/Part%204.ipynb)
+
+## Resultados
+
