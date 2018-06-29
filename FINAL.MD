@@ -1,2 +1,3 @@
 # Visualizacion de Sonidos
-In this projects its explore the possibilty of visualization of sounds
+
+Durante el desarrollo del proyecto (transcurso de las etapas) , se econtro ciertas dificultades al 
