@@ -86,4 +86,25 @@ En vista de estos problemas, se mudo el modo de visualizacion de hacia el metodo
 
 La [curva de Hilbert](https://en.wikipedia.org/wiki/Hilbert_curve) es aquella curva fractal capas de cubrir completamente un espacio 2 dimensional usando solo una linea (de ahi la denominacion de curva),  una de las propiedades mas importantes de esta curva es que ***dados 2 puntos proximos en la una recta , al ser sometida a una tranformacion via la curva de hilbert, estos puntos se mantiene proximos** , ademas, la ubacion final de un punto en la recta se mantiene casi constante en su represatacion 2 dimensional (matriz); en otras palabras : ***a mayor resolucion de la imagen (tamano de la matriz) un punto perteneciente a la recta transformada converge a una sola posicion unica y sin superposicion***.
 
+<center>
 ![Curva de Hilberth, 8 Iteraciones recursiva del Fractal](./md-media/Hilbert_curve.gif)
+</center>
+
+## Archivos WAV y Espacios de Color
+
+Los [archivos WAV](http://soundfile.sapp.org/doc/WaveFormat/) usan una configuracion de valores de tipo PCM , esto significa que por cada ruido registrado se genera un pico de ruido (en el caso de este proycto el rango de picos fue $$ (-2^{15}, 2^{15} - 1) $$.
+
+De esta forma, se puede tener que por cada subframe se genera un pixel de con un color especifico , relativo a dicha intensidad.
+Este proceso de conversion ***intensidad -  color*** se realizo usando la idea de que la luz representa un ***frecuencia, una logitud de onda y una amplitud***, [todos estos parametros genera una energia caracteriztica por onda](http://www.fourmilab.ch/documents/specrend/) pudiendose asi (dada una reconfiguracion del rango del sonido) asociar una intensidad de sonido a una intesidad de color y esta a un valor  **RGB**, para automatizar este proceso, se uso el siguiente [Codigo de conversion](http://www.noah.org/wiki/Wavelength_to_RGB_in_Python).
+
+Ambas ideas combinadas con la idea de curva de Hilberth fractal ( automatizado mediante este [codigo](https://github.com/galtay/hilbert_curve) , con una modificacion propia para conseguir paralelizar en un numero arbitrario de kernels ) generan imagenes del siguiente tipo:
+
+![01 - Tank! (Canal Izquierdo)](./data/01 - tank! (tv stretch)_L.png)
+![01 - Tank! (Canal Derecho)](./data/01 - tank! (tv stretch)_R.png)
+
+<center>
+  <audio controls="controls">
+    <source type="audio/wav" src="./data/01 - tank! (tv stretch).wav"></source>
+    <p>Your browser does not support this audio format (WAV).</p>
+  </audio>
+</center>
