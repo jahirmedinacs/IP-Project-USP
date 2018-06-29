@@ -99,8 +99,9 @@ Este proceso de conversion ***intensidad -  color*** se realizo usando la idea d
 
 Ambas ideas combinadas con la idea de curva de Hilberth fractal ( automatizado mediante este [codigo](https://github.com/galtay/hilbert_curve) , con una modificacion propia para conseguir paralelizar en un numero arbitrario de kernels ) generan imagenes del siguiente tipo:
 
-![01 - Tank! (Canal Izquierdo)](./data/01 - tank! (tv stretch)_L.png)
-![01 - Tank! (Canal Derecho)](./data/01 - tank! (tv stretch)_R.png)
+![01 - Tank! (Canal Izquierdo)]("./data/01 - tank! (tv stretch)_L.png")
+
+![01 - Tank! (Canal Derecho)]("./data/01 - tank! (tv stretch)_R.png")
 
 <center>
   <audio controls="controls">
