@@ -84,11 +84,9 @@ En vista de estos problemas, se mudo el modo de visualizacion de hacia el metodo
 
 ## Curva de Hilbert y Transformaciones  1-D -> 2-D 
 
-La [curva de Hilbert](https://en.wikipedia.org/wiki/Hilbert_curve) es aquella curva fractal capas de cubrir completamente un espacio 2 dimensional usando solo una linea (de ahi la denominacion de curva),  una de las propiedades mas importantes de esta curva es que ***dados 2 puntos proximos en la una recta , al ser sometida a una tranformacion via la curva de hilbert, estos puntos se mantiene proximos** , ademas, la ubacion final de un punto en la recta se mantiene casi constante en su represatacion 2 dimensional (matriz); en otras palabras : ***a mayor resolucion de la imagen (tamano de la matriz) un punto perteneciente a la recta transformada converge a una sola posicion unica y sin superposicion***.
+La [curva de Hilbert](https://en.wikipedia.org/wiki/Hilbert_curve) es aquella curva fractal capas de cubrir completamente un espacio 2 dimensional usando solo una linea (de ahi la denominacion de curva),  una de las propiedades mas importantes de esta curva es que ***dados 2 puntos proximos en la una recta , al ser sometida a una tranformacion via la curva de hilbert, estos puntos se mantiene proximos*** , ademas, la ubacion final de un punto en la recta se mantiene casi constante en su represatacion 2 dimensional (matriz); en otras palabras : ***a mayor resolucion de la imagen (tamano de la matriz) un punto perteneciente a la recta transformada converge a una sola posicion unica y sin superposicion***.
 
-<center>
 ![Curva de Hilberth, 8 Iteraciones recursiva del Fractal](./md-media/Hilbert_curve.gif)
-</center>
 
 ## Archivos WAV y Espacios de Color
 
@@ -110,3 +108,13 @@ Ambas ideas combinadas con la idea de curva de Hilberth fractal ( automatizado m
     <p>Your browser does not support this audio format (WAV).</p>
   </audio>
 </center>
+
+## Scripts , Codigo y Resultados
+
+> Dado la resolucion de las imagenes (4096 * 4096) solo se adjuta los resultados ya calculados.
+
+En este experimento se uso el disco musical [Cowboy Bebop Tank! THE! BEST!](http://cowboybebop.wikia.com/wiki/Cowboy_Bebop_Tank!_THE!_BEST!) dada su variedad de sonidos (entre jazz y musica ambiental) permite visualizar el alcance de esta tecnica de representacion de sonido.
+
+### Pasos Usados
+
+###
