@@ -14,7 +14,7 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 * * *
 
-# Project Information
+# Stages
 
 ## Final Proposal
 [link](./FINAL_PROPOS.MD)
@@ -24,7 +24,3 @@ When an electromagnetic wave-type signal is capture or register, in his raw stat
 
 ## Final
 [link](./FINAL.MD)
-
-# Project Development
-
-# Project Results
