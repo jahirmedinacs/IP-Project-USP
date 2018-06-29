@@ -129,15 +129,51 @@ Subsecuentemente dividiendo el archivo wav en sus canales (Left and Rigth) para 
 
 [Leyendo los archivos Wav](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/part%201.ipynb)
 
-[Dividiendo los canales y generando datos RAW](
-
 ### Testeando el Proceso de Generacion de imagenes
 
-[Notebook](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/Part%203.ipynb)
+[Dividiendo los canales y generando datos RAW e dummy Images](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/Part%203.ipynb)
 
 ### Generando Imagenes (Puras y con Ruido)
 
 [Notebook](https://nbviewer.jupyter.org/github/jahirmedinacs/usp-sound-visual/blob/master/jupyter-data/Part%204.ipynb)
 
 ## Resultados
+
+### Puro
+
+Cancion "01 - tank! (tv stretch)"
+
+<center>
+<img src="./data/01 - tank! (tv stretch)_L.png" alt="01 - Tank! (Canal Izquierdo)">
+<img src="./data/01 - tank! (tv stretch)_R.png" alt="01 - Tank! (Canal Derecho)">
+</center>
+
+
+### 10% Ruido
+
+<center>
+<img src="./data/01 - tank! (tv stretch)_10_L.png" alt="01 - Tank! (Canal Izquierdo)">
+<img src="./data/01 - tank! (tv stretch)_10_R.png" alt="01 - Tank! (Canal Derecho)">
+</center>
+
+### 20% Ruido
+
+<center>
+<img src="./data/01 - tank! (tv stretch)_20_L.png" alt="01 - Tank! (Canal Izquierdo)">
+<img src="./data/01 - tank! (tv stretch)_20_R.png" alt="01 - Tank! (Canal Derecho)">
+</center>
+
+### 30% Ruido
+
+<center>
+<img src="./data/01 - tank! (tv stretch)_30_L.png" alt="01 - Tank! (Canal Izquierdo)">
+<img src="./data/01 - tank! (tv stretch)_30_R.png" alt="01 - Tank! (Canal Derecho)">
+</center>
+
+### 50% Ruido
+
+<center>
+<img src="./data/01 - tank! (tv stretch)_35_L.png" alt="01 - Tank! (Canal Izquierdo)">
+<img src="./data/01 - tank! (tv stretch)_35_R.png" alt="01 - Tank! (Canal Derecho)">
+</center>
 
