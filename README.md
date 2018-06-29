@@ -4,23 +4,25 @@ Full Title:
 
 <center>
 <span style="font-size:large; font-weight:bold">
-  Comparison of Image Enhancement Techniques applied to Sound Data Retrieve( from Images )
+  Sound Visualization using Hilbert Curves
 </span>
-</center>
+</center>onn
 
 Brief Description:
 
-When an electromagnetic wave-type signal is capture or register, in his raw state, can be represented in multiple ways; but in the case it is a sound, despite the fact is a merely electrical field perturbation, can be also represented as an image; an image who contain the same information as the sound but in other information domains. (could have less information too)
+A Hilbert Cuve is the one fractal curve who applies a 1-D -> 2-D transformation , making , for example , one line enough to cover an entire area of squeare.
+
+In this case we gonna see how to applies this ideas and transform Sound in an 24bit RGB PNG image.
 
 * * *
 
 # Stages
 
-## Final Proposal
+## Final Proposal (Idea 1)
 [link](./FINAL_PROPOS.MD)
 
-## Parcial Advance
+## Parcial Advance (Idea 1)
 [link](./PARCIAL.MD)
 
-## Final
+## Final (Final Idea)
 [link](./FINAL.MD)
