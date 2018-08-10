@@ -4,7 +4,7 @@
 
 ## Introduccion
 
-Durante el desarrollo del proyecto (transcurso de las etapas) , se econtro ciertas dificultades para solventar el problema inicial:
+Durante el desarrollo del proyecto (transcurso de las etapas) , se encontro ciertas dificultades para solventar el problema inicial:
 
 * ***Analizar el ruido dentro de un sonido usando la imagen generada de el***
 
